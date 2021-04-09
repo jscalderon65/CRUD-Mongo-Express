@@ -7,7 +7,7 @@
     "build": "babel src --out-dir dist",
     "dev": "nodemon src/index.js --exec babel-node",
     "start": "node dist/index.js",
-    "update-d":"ncu"
+    "update-d": "ncu"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "express": "^4.17.1",
-    "mongodb": "^3.6.6"
+    "mongodb": "^3.6.6",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
