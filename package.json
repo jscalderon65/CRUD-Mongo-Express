@@ -10,7 +10,7 @@
     "update-d": "ncu"
   },
   "keywords": [],
-  "author": "",
+  "author": "jscalderon65",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
