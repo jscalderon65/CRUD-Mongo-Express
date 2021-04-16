@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
     );
     const result = await githubInfo.json();
     const repoInfo = result.filter(
-        (item) => item.name === "rest-api-node-mongo-es10"
+        (item) => item.name === "Rest-api-node-mongo-es10"
     )[0];
 
     const ProjectInfo = {
@@ -25,7 +25,7 @@ router.get("/", async (req, res) => {
         "Owner":repoInfo.owner.login,
         "Profile Url":repoInfo.owner.url,
     }
-    res.json("Funciona");
+    res.json([ProjectInfo]);
 });
 
 export default router;
