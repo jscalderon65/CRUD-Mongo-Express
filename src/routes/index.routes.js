@@ -25,7 +25,7 @@ router.get("/", async (req, res) => {
         "Owner":repoInfo.owner.login,
         "Profile Url":repoInfo.owner.url,
     }
-    res.json([ProjectInfo]);
+    res.json("Funciona");
 });
 
 export default router;
